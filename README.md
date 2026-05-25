@@ -36,7 +36,7 @@ python test2_tem1.py
 `./afmisc/` Miscellaneous files from AlphaFold repository;  
 `./aftools/` Implements the AFLF algorithm and helper functions;  
 
-# AlphaFold 的 Python 源代码模块。它告诉程序如何读取和处理 feature，如何构造 AlphaFold model config，如何执行 Evoformer，如何执行 Structure Module，如何输出 PDB，如何做 template / MSA pipeline，如何做 relax。 但是它不包含模型权重（例如 params_model_1_ptm.npz ），也不包含数据库（需要额外下载）。
+AlphaFold 的 Python 源代码模块。它告诉程序如何读取和处理 feature，如何构造 AlphaFold model config，如何执行 Evoformer，如何执行 Structure Module，如何输出 PDB，如何做 template / MSA pipeline，如何做 relax。 但是它不包含模型权重（例如 params_model_1_ptm.npz ），也不包含数据库（需要额外下载）。
 `./alphafold/` The AlphaFold source code;  
 
 `./test2_tem1/` The working directory for the TEM-1 example;  
